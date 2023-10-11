@@ -1,0 +1,5 @@
+*.tag.*
+*error*
+*.pdf
+*.exe
+*.zip

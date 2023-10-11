@@ -1,0 +1,6 @@
+object,definition
+username,admin
+old_password,admin
+new_password,admin123
+sonar_token_name,sonartoken
+sonar_token_filename,sonartoken.txt
