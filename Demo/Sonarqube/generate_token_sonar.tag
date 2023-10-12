@@ -1,4 +1,4 @@
-http://localhost:9000/sessions/new?return_to=%2F
+`sonar_url`
 type text as `username`
 type password as `new_password`
 click Log in

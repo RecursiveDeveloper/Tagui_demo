@@ -1,15 +1,19 @@
 <#
     .Description
     --------- Run this script as administrator ---------
+    * Resources can be downloaded from: https://tagui.readthedocs.io/en/latest/setup.html
+    * Be sure to have required files on the same folder where this script is located
 
     ------------------------
     Before running:
     ------------------------
-    * Resources can be downloaded from: https://tagui.readthedocs.io/en/latest/setup.html
+    * Download TagUI_Windows and name it as TagUI_Windows.zip
+    * Download ChromeInstaller and name it as ChromeInstaller.exe
 
     ------------------------
     Packages installed
     ------------------------
+    * TagUI tool
     * Chocolatey
     * OpenJDK (By Chocolatey)
     * Chrome web browser (By chrome.exe file installer)
@@ -49,5 +53,4 @@ $(Get-Package -Name "Google Chrome").Version
 Write-Host "`n**********Setting TagUI path environment variable`n"
 $Path = [Environment]::GetEnvironmentVariable("PATH", "Machine") + [IO.Path]::PathSeparator + "C:\tagui\src"
 [Environment]::SetEnvironmentVariable("Path", $Path, "Machine")
-
 $env:Path = [System.Environment]::GetEnvironmentVariable("Path", "Machine")

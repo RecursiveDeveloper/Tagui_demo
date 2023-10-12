@@ -1,4 +1,5 @@
 object,definition
+sonar_url,http://localhost:9000/sessions/new?return_to=%2F
 username,admin
 old_password,admin
 new_password,admin123
