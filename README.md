@@ -2,9 +2,7 @@
 
 # Installation
 
-Before executing the next step, be sure to download required files listed below from [Tagui installation](https://tagui.readthedocs.io/en/latest/setup.html) and locate them inside "Installation" folder.
-* TagUI vx.xyz for Windows
-* Chrome Web Browser
+Before executing the next step, be sure to download **TagUI vx.xyz for Windows** file from [Tagui installation](https://tagui.readthedocs.io/en/latest/setup.html) and locate them inside "Installation" folder. In this folder there's a **Google Chrome** installer in case it's not currently installed in your system, **tagui** use it by default.
 
 Use **TagUI_Install.ps1** powershell script to install tagui in your Windows O.S . Currently, tagui installer it's intended to work on **Windows O.S** for now. A **Linux** installer is under development.
 
