@@ -1,5 +1,7 @@
 keyboard [win]s
-keyboard ubuntu[enter]
+keyboard powershell[enter]
+wait 5
+keyboard wsl[enter]
 wait 10
 keyboard sudo apt-get update -y[enter]
 keyboard `wsl_password`[enter]
