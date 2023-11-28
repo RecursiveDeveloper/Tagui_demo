@@ -49,7 +49,7 @@ docker compose down --volumes --rmi all
 * [Install Ubuntu on WSL2 on Windows 10
 ](https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-10#1-overview)
 
-![image](https://aaronwinters.com/wp-content/uploads/2017/06/Ubutntu-on-Windows-10-logo-banner.jpg)
+![image](https://miro.medium.com/v2/resize:fit:1000/0*AQWATr3nj-H4Dao2.png)
 
 ### Execution steps
 
